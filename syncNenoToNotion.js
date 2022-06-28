@@ -15,7 +15,7 @@ async function getTriggeredContent() {
         redirect: 'follow'
     };
 
-    let response = await fetch(`https://api.github.com/repos/Mran/nenolog/commits/${sha}?page=0&per_page=`, requestOptions)
+    let response = await fetch(`https://api.github.com/repos/SkysCrystal/neno-notes/commits/${sha}?page=0&per_page=`, requestOptions)
     return await response.json()
 
 }
